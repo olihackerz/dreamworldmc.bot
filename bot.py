@@ -6,6 +6,8 @@ import textwrap
 import urllib
 import aiohttp
 import datetime
+import json
+import requests
 
 client = commands.Bot(command_prefix='#')
 client.remove_command("help")
