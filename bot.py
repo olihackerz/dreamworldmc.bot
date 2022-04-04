@@ -84,7 +84,7 @@ async def on_message(message):
   if message.content.startswith("#help"):
     myEmbedhelp = discord.Embed(title="Help menu", description="", color=0x00ff00)
     myEmbedhelp.add_field(name="general",value="#help : Help menu (this). \n #version : See what version the bot is on!", inline=False)
-    myEmbedhelp.add_field(name="Fun",value="#coolrate : Do you want to know how cool you are? Use this command! \n #gayrate : The bot knows if you are gay or not. Use this command. \n MORE COMING SOON!", inline=False)
+    myEmbedhelp.add_field(name="Fun",value="#coolrate : Do you want to know how cool you are? Use this command! \n #gayrate : The bot knows if you are gay or not. Use this command. \n #ly <yoursong> : to get the lyrics of a song n\MORE COMING SOON!", inline=False)
     await message.channel.send(embed=myEmbedhelp)   
     
 
