@@ -88,6 +88,4 @@ async def on_message(message):
     await message.channel.send(embed=myEmbedhelp)   
     
 
-
-
 client.run("TOKEN")
