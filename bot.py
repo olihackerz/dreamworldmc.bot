@@ -14,7 +14,7 @@ client.remove_command("help")
 
 
 
-moderationwords = ["Fuck", "Pussy", "fuck", "pussy", "porn", "cancer"]
+moderationwords = []
 
 
 @client.event
